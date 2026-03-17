@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miras | Milli Mətbəx</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="pattern-overlay"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="logo">Miras</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Əsas Səhifə</a></li>
+                <li><a href="#menu">Menyu</a></li>
+                <li><a href="#about">Haqqımızda</a></li>
+                <li><a href="#contact">Əlaqə</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-card glass">
+            <h1>Milli Ləzzətlərin Harmoniyası</h1>
+            <p>Zəngin kulinariya irsimizi və ənənəvi dadlarımızı müasir bir toxunuşla kəşf edin. Hər bir tikədə tariximizin izi var.</p>
+            <a href="#menu" class="btn-primary">Menyuya Bax</a>
+        </div>
+    </section>
+
+    <section id="menu" class="cuisine-section fade-in">
+        <div class="container">
+            <h2 class="text-center">Milli Menyumuz</h2>
+            <div class="divider mx-auto"></div>
+            
+            <div class="grid-3">
+                <div class="card glass-subtle">
+                    <img src="https://www.souschef.co.uk/cdn/shop/articles/Blog_Post_Header_7_43425340-3620-4eb8-9a51-3a3031eba695.jpg?v=1761735875" alt="Şah Plov">
+                    <div class="card-content">
+                        <h3>Şah Plov</h3>
+                        <p>Mətbəximizin şahı. Xırtıldayan qazmaq içərisində zəfəranlı düyü, quru meyvələr və yumşaq ətin mükəmməl harmoniyası.</p>
+                        <span class="price">₼ 24.00</span>
+                    </div>
+                </div>
+
+                <div class="card glass-subtle">
+                    <img src="https://evdar.az/wp-content/uploads/Yarpaq-Dolmasinin-%C6%8Fn-Boyuk-R%C9%99qibi-%C6%8Ftli-Pazi-Dolmasi1.jpeg" alt="Yarpaq Dolması">
+                    <div class="card-content">
+                        <h3>Yarpaq Dolması</h3>
+                        <p>Zərif tənək yarpağına bükülmüş, xüsusi ədviyyatlarla dadlandırılmış quzu əti və düyü.</p>
+                        <span class="price">₼ 15.00</span>
+                    </div>
+                </div>
+
+                <div class="card glass-subtle">
+                    <img src="https://quzu.az/wp-content/uploads/qutab.webp" alt="Qutab">
+                    <div class="card-content">
+                        <h3>Göyərti Qutabı</h3>
+                        <p>Sac üzərində bişirilmiş, içərisi təzə göyərtilər və yüngül pendirlə doldurulmuş ənənəvi incə ləzzət.</p>
+                        <span class="price">₼ 4.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section fade-in">
+        <div class="container flex-split">
+            <div class="text-content">
+                <h2>Haqqımızda</h2>
+                <div class="divider"></div>
+                <p>Miras olaraq məqsədimiz, Azərbaycanın qədim kulinariya ənənələrini ən təmiz və təbii formada sizə təqdim etməkdir. Şərq və Qərb mədəniyyətlərinin qovuşuğunda formalaşan mətbəximizin sirri – təzə inqrediyentlər, zəngin ədviyyatlar və yeməyə qatılan sevgidir. Biz tarixi dadları müasir və minimalist yanaşma ilə süfrənizə gətiririk.</p>
+            </div>
+            <div class="image-content glass">
+                <img src="https://www.wanderlustmagazine.com/wp-content/uploads/2024/03/dolma-2.jpg" alt="Azərbaycan Mətbəxi">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section fade-in">
+        <div class="container text-center">
+            <h2>Bizimlə Əlaqə</h2>
+            <div class="divider mx-auto"></div>
+            <p style="margin-bottom: 40px; color: var(--text-muted);">Masanızı rezerv etmək və ya suallarınız üçün bizə yazın.</p>
+            
+            <form class="contact-form glass-subtle mx-auto">
+                <input type="text" placeholder="Ad və Soyad" required>
+                <input type="email" placeholder="E-poçt ünvanı" required>
+                <textarea rows="4" placeholder="Mesajınız..." required></textarea>
+                <button type="submit" class="btn-primary w-100">Göndər</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo" style="color: var(--warm-beige); margin-bottom: 10px;">Miras</div>
+            <p>Müasir və təmiz Azərbaycan mətbəxi.</p>
+            <p class="copyright">© 2026 Miras. Bütün hüquqlar qorunur.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
